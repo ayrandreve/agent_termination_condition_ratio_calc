@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ayrandreve-adrank_jd081"
+name = "ayrandreve-agent_termination_condition_ratio_calc"
 version = "0.1.0"
 description = "从输入中抽取数值，计算广告召回与排序工程师·智能体的任务终止条件相关的比值与占比，分母为零时明确报错"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://ayrandreve.github.io"
-Repository = "https://github.com/ayrandreve/adrank_jd081"
-Issues = "https://github.com/ayrandreve/adrank_jd081/issues"
+Repository = "https://github.com/ayrandreve/agent_termination_condition_ratio_calc"
+Issues = "https://github.com/ayrandreve/agent_termination_condition_ratio_calc/issues"
 
 [project.scripts]
-adrank_jd081 = "adrank_jd081:main"
+agent_termination_condition_ratio_calc = "agent_termination_condition_ratio_calc:main"
 
 [tool.setuptools]
-py-modules = ["adrank_jd081"]
+py-modules = ["agent_termination_condition_ratio_calc"]
